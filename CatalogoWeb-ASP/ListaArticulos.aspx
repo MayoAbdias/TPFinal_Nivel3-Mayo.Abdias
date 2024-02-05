@@ -3,12 +3,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h2 class="text-center">Lista de Articulos</h2>
-    <hr />
+    <h2 class="bg-dark card text-white text-center">Lista de Articulos</h2>
+    <hr class="border-4" />
     <div class="row">
         <div class="col-6">
             <div class="mb-3">
-                <asp:Label Text="Filtrar por Nombre" CssClass="accordion-body  border-top form-control-lg " runat="server" />
+                <asp:Label Text="Filtrar por Nombre" CssClass="accordion-body border-2 border-dark-subtle  border-top form-control-lg " runat="server" />
                 <asp:TextBox ID="txtFiltroNombre" CssClass="form-control" AutoPostBack="true" OnTextChanged="txtFiltroNombre_TextChanged" runat="server" />
             </div>
         </div>

@@ -6,21 +6,21 @@
     <div class="row justify-content-center mt-5 shadow-lg p-3 bg-transparent text-lg-center">
         <div class="col-md-4">
             <div class="mb-3">
-                <label class="accordion-body border-top border-2 form-control-lg">Email</label>
+                <label class="accordion-body border-top border-dark-subtle border-2 form-control-lg">Email</label>
                 <asp:TextBox ID="txtEmail" CssClass="form-control" REQUIRED  runat="server" />
             </div>
             <div class="mb-3">
-                <label class="accordion-body border-top border-2 form-control-lg">Nombre</label>  
+                <label class="accordion-body border-top border-dark-subtle border-2 form-control-lg">Nombre</label>  
                 <asp:TextBox ID="txtNombre" CssClass="form-control" REQUIRED  runat="server" />
             </div>
             <div class="mb-3">
-                <label  class="accordion-body border-top border-2 form-control-lg">Apellido</label>               
+                <label  class="accordion-body border-top border-dark-subtle border-2 form-control-lg">Apellido</label>               
                 <asp:TextBox ID="txtApellido" CssClass="form-control" runat="server" />
             </div>           
         </div>
         <div class="col-md-4">
             <div class="mb-3">
-                <label class="accordion-body border-top border-2 form-control-lg">Imagen Perfil</label>
+                <label class="accordion-body border-top border-dark-subtle border-2 form-control-lg">Imagen Perfil</label>
                 <input type="file" runat="server" id="txtImagenPerfil" class="form-control" />
             </div>
             <asp:Image ID="imagenNuevaPerfil" ImageUrl="https://th.bing.com/th/id/OIP.FjLkalx51D8xJcpixUGJywHaE8?w=262&h=180&c=7&r=0&o=5&pid=1.7"

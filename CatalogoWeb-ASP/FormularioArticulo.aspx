@@ -3,32 +3,32 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h2 class="text-center">Formulario de Articulos</h2>
-    <hr />
+    <h2 class="bg-black card text-white text-center">Formulario de Articulos</h2>
+    <hr class="form-control bg-black"/>
     <div class="row">
         <div class="col-6">
             <div class="mb-3">
-                <label for="txtId" class="accordion-body border-top form-control-lg">Id</label>
+                <label for="txtId" class="accordion-body border-2 border-dark-subtle border-top form-control-lg">Id</label>
                 <asp:TextBox ID="txtId" CssClass="form-control" runat="server" />
             </div>
             <div class="mb-3">
-                <label for="txtCodigo" class="accordion-body border-top form-control-lg">Codigo</label>
+                <label for="txtCodigo" class="accordion-body border-2 border-dark-subtle border-top form-control-lg">Codigo</label>
                 <asp:TextBox ID="txtCodigo" CssClass="form-control" REQUIRED  runat="server" />
             </div>
             <div class="mb-3">
-                <label for="txtNombre" class="accordion-body border-top form-control-lg">Nombre</label>
+                <label for="txtNombre" class="accordion-body border-2 border-dark-subtle border-top form-control-lg">Nombre</label>
                 <asp:TextBox ID="txtNombre" CssClass="form-control" REQUIRED  runat="server" />
             </div>
             <div class="mb-3">
-                <label for="ddlMarca" class="accordion-body border-top form-control-lg">Marca</label>
+                <label for="ddlMarca" class="accordion-body border-2 border-dark-subtle border-top form-control-lg">Marca</label>
                 <asp:DropDownList runat="server" ID="ddlMarca" CssClass="form-select"></asp:DropDownList>
             </div>
             <div class="mb-3">
-                <label for="ddlCategoria" class="accordion-body border-top form-control-lg">Categoria</label>
+                <label for="ddlCategoria" class="accordion-body border-2 border-dark-subtle border-top form-control-lg">Categoria</label>
                 <asp:DropDownList runat="server" ID="ddlCategoria" CssClass="form-select"></asp:DropDownList>
             </div>
             <div class="mb-3">
-                <label for="txtPrecio" class="accordion-body border-top form-control-lg">Precio</label>
+                <label for="txtPrecio" class="accordion-body border-2 border-dark-subtle border-top form-control-lg">Precio</label>
                 <asp:TextBox runat="server" ID="txtPrecio" REQUIRED  CssClass="form-control" />
                 <asp:RegularExpressionValidator ErrorMessage="Solo se permiten números" ControlToValidate="txtPrecio"
                      ValidationExpression="^[0-9]*$" Display="Dynamic" CssClass="blockquote-footer link-danger form-switch" runat="server" />
@@ -39,14 +39,14 @@
 
         <div class="col-6">
             <div class="mb-3">
-                <label for="txtDescripcion" class="accordion-body border-top form-control-lg">Descripcion</label>
+                <label for="txtDescripcion" class="accordion-body border-2 border-dark-subtle border-top form-control-lg">Descripcion</label>
                 <asp:TextBox ID="txtDescripcion" CssClass="form-control" TextMode="MultiLine" runat="server" />
             </div>
             <asp:ScriptManager runat="server" />
             <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                 <ContentTemplate>
                     <div class="mb-3">
-                        <label for="txtUrlimagen" class="accordion-body border-top form-control-lg">Url Imagen</label>
+                        <label for="txtUrlimagen" class="accordion-body border-2 border-dark-subtle border-top form-control-lg">Url Imagen</label>
                         <asp:TextBox ID="txtUrlimagen" CssClass="form-control" AutoPostBack="true" OnTextChanged="txtUrlimagen_TextChanged" runat="server" />
                     </div>
 

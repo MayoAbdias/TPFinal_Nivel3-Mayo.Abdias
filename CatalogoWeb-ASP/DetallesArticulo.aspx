@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h2 class="card text-bg-dark  text-center ">Detalles del Articulo</h2>
-    <hr />
+    <hr class="form-control bg-black"/>
     <div class="container shadow-sm p-3 bg-light ">
         <div class="mb-3">
             <div class="row g-0 aling-items-center">
@@ -17,30 +17,30 @@
                         </h3>
                     </div>
                     <p>
-                        <asp:Label Text="Codigo:" CssClass="accordion-body border-top border-2 form-control-lg" runat="server" />
+                        <asp:Label Text="Codigo:" CssClass="accordion-body border-top border-dark-subtle border-2 form-control-lg" runat="server" />
                         <asp:Label Text="" CssClass="form-label form-control-lg" ID="lblCodigo" runat="server" />
                     </p>
-                    <hr />
+                    <hr class="border-4" />
                     <p>
-                        <asp:Label Text="Descripcion:" CssClass="accordion-body border-top border-2 form-control-lg" runat="server" />
+                        <asp:Label Text="Descripcion:" CssClass="accordion-body border-top border-dark-subtle border-2 form-control-lg" runat="server" />
                         <asp:Label Text="" CssClass="form-label form-control-lg" ID="lblDescripcion" runat="server" />
                     </p>
-                    <hr />
+                    <hr class="border-4"/>
                     <p>
-                        <asp:Label Text="Marca:" CssClass="accordion-body border-top border-2 form-control-lg" runat="server" />
+                        <asp:Label Text="Marca:" CssClass="accordion-body border-top border-dark-subtle border-2 form-control-lg" runat="server" />
                         <asp:Label Text="" CssClass="form-label form-control-lg" ID="lblMarca" runat="server" />
                     </p>
-                    <hr />
+                    <hr class="border-4"/>
                     <p>
-                        <asp:Label Text="Categoria:" CssClass="accordion-body border-top border-2 form-control-lg" runat="server" />
+                        <asp:Label Text="Categoria:" CssClass="accordion-body border-top border-dark-subtle border-2 form-control-lg" runat="server" />
                         <asp:Label Text="" CssClass="form-label form-control-lg" ID="lblCategoria" runat="server" />
                     </p>
-                    <hr />
+                    <hr class="border-4"/>
                     <p>
-                        <asp:Label Text="Precio:" CssClass="accordion-body border-top border-2 form-control-lg" runat="server" />
+                        <asp:Label Text="Precio:" CssClass="accordion-body border-top border-dark-subtle border-2 form-control-lg" runat="server" />
                         <asp:Label Text="" CssClass="form-label form-control-lg" ID="lblPrecio" runat="server" />
                     </p>
-                    <hr />
+                    <hr class="border-4"/>
                 </div>
             </div>
             <div class=" d-flex gap-3  justify-content-center mb-4 text-center ">
